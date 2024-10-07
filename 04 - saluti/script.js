@@ -1,15 +1,15 @@
 /* Scrivi una funzione che accetti una stringa contenente un nome e restituisca un saluto seguito dal nome fornito (es. "Ciao [nome]") */
 
-const name = 'Mario';
+const namee = 'Mario';
 
 
 // Dichiara la funzione qui.
-function greeting(name) {
-    console.log(`Piacere di conoscerti ${name}`);
+function greeting(newName) {
+    console.log(`Piacere di conoscerti ${newName}`);
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-greeting('Anna');
+greeting(namee);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
