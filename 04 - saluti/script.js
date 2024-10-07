@@ -2,7 +2,10 @@
 
 const namee = 'Mario';
 
-
+/**
+ * 
+ * @param {string} newName 
+ *  */  
 // Dichiara la funzione qui.
 function greeting(newName) {
     console.log(`Piacere di conoscerti ${newName}`);
