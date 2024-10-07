@@ -18,7 +18,7 @@ function myFunction(str) {
             vowelArr.push(str[i]);
         }
     }
-    return `la parola ${str} contiene ${vowel} vocali  ${vowelArr.join(', ')} `;
+    return `${str} contiene ${vowel} vocali (${vowelArr.join(', ')}) `;
     
 }
 
