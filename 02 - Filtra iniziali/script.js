@@ -4,10 +4,33 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function newNameArr(arr, latter) {
+    let newNames = [];
 
+    for (let i = 0; i < arr.length; i++) {
+        let name = arr[i].split('').join('');
+        if (name[0] === latter) {
+            newNames.push(name);
+        }
+    }
+
+    return newNames;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(newNameArr(names, 'L'));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
+/* let latter = 'L'
+let newArrNames = [];
+
+for (let i = 0; i < names.length; i++) {
+    let name = names[i].split('').join('');
+    if (name[0] === latter) {
+        newArrNames.push(name);
+    }
+}
+
+console.log(newArrNames);  */
