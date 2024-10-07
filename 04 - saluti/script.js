@@ -4,10 +4,12 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function greeting(name) {
+    console.log(`Piacere di conoscerti ${name}`);
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+greeting('Anna');
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario

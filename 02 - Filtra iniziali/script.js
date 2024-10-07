@@ -2,7 +2,12 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
+/** 
+*
+*@param {Array} an array of names
+*@param {string} a letter of the alphabet
+*
+ */
 // Dichiara la funzione qui.
 function newNameArr(arr, latter) {
     let newNames = [];
