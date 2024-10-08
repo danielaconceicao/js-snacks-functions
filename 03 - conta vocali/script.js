@@ -10,15 +10,15 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 function myFunction(str) {
     let vowelsArr = ['a', 'e', 'i', 'o', 'u'];
-    let vowelArr = [];
-    let vowel = 0;
+    let foundVowelArr = [];
+    let counter = 0;
     for (let i = 0; i < str.length; i++) {
         if (vowelsArr.includes(str[i])) {
-            vowel++;
-            vowelArr.push(str[i]);
+            counter++;
+            foundVowelArr.push(str[i]);
         }
     }
-    return `${str} contiene ${vowel} vocali (${vowelArr.join(', ')}) `;
+    return `${str} contiene ${counter} vocali (${foundVowelArr.join(', ')}) `;
     
 }
 

@@ -13,9 +13,9 @@ function newNameArr(arr, latter) {
     let newNames = [];
 
     for (let i = 0; i < arr.length; i++) {
-        let name = arr[i].split('').join('');
-        if (name[0] === latter) {
-            newNames.push(name);
+        let nameElement = arr[i];
+        if (nameElement[0] === latter) {
+            newNames.push(arr[i]);
         }
     }
 

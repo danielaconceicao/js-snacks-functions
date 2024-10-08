@@ -10,8 +10,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function newArrOfNames(arr) {
     let newName = [];
     for (let i = 0; i < arr.length; i++) {
-        let modifiedName = arr[i].split('');
-        newName.push(modifiedName[0]);
+        newName.push(arr[i][0]);
     }
 
    return newName; 

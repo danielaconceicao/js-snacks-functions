@@ -14,14 +14,17 @@ const namee = 'Mario';
 // Dichiara la funzione qui.
 function greeting(newName) {
     let date = new Date().getHours();
+    let greet;
 
     if (date >= 5 && date <= 13) {
-        return `Buongiorno, ${newName}`;
+        greet = `Buongiorno`;
     }else if (date > 13 && date <= 17) {
-        return `Buon pomeriggio, ${newName}`;
+        greet = `Buon pomeriggio`;
     }else{
-        return `Buonasera, ${newName}`;
-    }   
+        greet `Buonasera`;
+    }  
+    
+    return `${greet} ${newName}`
 }
 
 
